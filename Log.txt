@@ -1,0 +1,1999 @@
+Automation.ParseCommandLine: Parsing command line: -ScriptsForProject="E:/Sustem/Documenti/Unreal Projects/GGGame/GGGame.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="E:/Sustem/Documenti/Unreal Projects/GGGame/GGGame.uproject" -cook -stage -archive -archivedirectory="E:/Sustem/Documenti/Unreal Projects/GGGame" -package -ue4exe=E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe -clean -SkipCookingEditorContent -pak -prereqs -distribution -nodebuginfo -targetplatform=Android -cookflavor=ETC2 -build -clientconfig=Shipping -utf8output
+Automation.Process: Setting up command environment.
+InternalUtils.SafeFileExists: SafeFileExists E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationTool.exe=True
+InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_LOCAL_ROOT=
+InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_LOCAL_ROOT=
+InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_EngineSavedFolder=
+CommandUtils.SetEnvVar: SetEnvVar uebp_EngineSavedFolder=E:/USER/vova40227/EpicStore/UE_4.25/Engine/Programs/AutomationTool/Saved
+InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_EngineSavedFolder=E:/USER/vova40227/EpicStore/UE_4.25/Engine/Programs/AutomationTool/Saved
+InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_CSVFile=
+InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_LogFolder=
+InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_LOCAL_ROOT=E:/USER/vova40227/EpicStore/UE_4.25
+CommandUtils.SetEnvVar: SetEnvVar uebp_LogFolder=C:/Users/ACER/AppData/Roaming/Unreal Engine/AutomationTool/Logs/E+USER+vova40227+EpicStore+UE_4.25
+InternalUtils.SafeDeleteFile: SafeDeleteFile C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\Cook-2020.12.01-21.22.44.txt
+InternalUtils.SafeDeleteFile: SafeDeleteFile C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\Log.txt
+InternalUtils.SafeDeleteFile: SafeDeleteFile C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\UBT-GGGame-Android-Shipping.txt
+InternalUtils.SafeDeleteFile: SafeDeleteFile C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\UBT-GGGame-Android-Shipping_2.txt
+InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_FinalLogFolder=
+CommandUtils.SetEnvVar: SetEnvVar uebp_FinalLogFolder=C:/Users/ACER/AppData/Roaming/Unreal Engine/AutomationTool/Logs/E+USER+vova40227+EpicStore+UE_4.25
+InternalUtils.SafeFileExists: SafeFileExists C:\Windows\system32\robocopy.exe=True
+InternalUtils.SafeFileExists: SafeFileExists C:\Windows\system32\mount.exe=False
+InternalUtils.SafeFileExists: SafeFileExists C:\Windows\Sysnative\mount.exe=False
+InternalUtils.SafeFileExists: SafeFileExists C:\Windows\system32\cmd.exe=True
+CommandUtils.SetEnvVar: SetEnvVar MallocNanoZone=0
+InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_UATChildInstance=0
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: E:\USER\vova40227\VS19 (Product=Microsoft.VisualStudio.Product.Community, Version=16.6.30320.27, Sort=0)
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK using manually installed SDK -23
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK using manually installed SDK v16_clang-9.0.1-centos7
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+InternalUtils.SafeDeleteFile: SafeDeleteFile C:\Users\ACER\AppData\Local\Temp\UAT\E+USER+vova40227+EpicStore+UE_4.25\Rules\UATRules1548169760.dll
+InternalUtils.SafeDeleteFile: SafeDeleteFile C:\Users\ACER\AppData\Local\Temp\UAT\E+USER+vova40227+EpicStore+UE_4.25\Rules\UATRules1548169760.pdb
+InternalUtils.SafeDeleteFile: SafeDeleteFile C:\Users\ACER\AppData\Local\Temp\UAT\E+USER+vova40227+EpicStore+UE_4.25\Rules\UATRules1548169760Manifest.json
+ScriptCompiler.FindAndCompileAllScripts: Found 16 project files in 0,756s
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\AllDesktop\AllDesktop.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\Android\Android.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\AutomationUtils\AutomationUtils.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\BuildGraph\BuildGraph.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\Gauntlet\Gauntlet.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\HoloLens\HoloLens.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\IOS\IOS.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\Linux\Linux.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\Localization\Localization.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\Lumin\Lumin.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\Mac\Mac.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\OneSkyLocalization\OneSkyLocalization.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\Scripts\AutomationScripts.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\TVOS\TVOS.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\Win\Win.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts:   E:\USER\vova40227\EpicStore\UE_4.25\Engine\Source\Programs\AutomationTool\XLocLocalization\XLocLocalization.Automation.csproj
+ScriptCompiler.FindAndCompileAllScripts: Parsed project files in 0,031s
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\AllDesktop\AllDesktop.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\Android\Android.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationUtils.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\BuildGraph.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\Gauntlet.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\HoloLens\HoloLens.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\IOS\IOS.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\Linux\Linux.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\Localization.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\Lumin\Lumin.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\Mac\Mac.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\OneSkyLocalization.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\AutomationScripts.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\TVOS\TVOS.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\Win.Automation.dll
+ScriptCompiler.LoadAutomationAssemblies: Loading script DLL: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\AutomationScripts\XLocLocalization.Automation.dll
+ScriptCompiler.FindAndCompileAllScripts: Loaded assemblies in 0,086s
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject=True
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject=True
+BuildCookRun.SetupParams: Setting up ProjectParams for E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'MagicLeapMedia' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'MagicLeapPassableWorld' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'MagicLeap' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'OnlineSubsystemIOS' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'PostSplashScreen' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'SteamVR' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'MagicLeapMedia' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'MagicLeapPassableWorld' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'MagicLeap' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'OnlineSubsystemIOS' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'PostSplashScreen' due to unsupported platform in plugin descriptor
+ProjectUtils.ConfigureEnabledPluginForTarget: Ignoring plugin 'SteamVR' due to unsupported platform in plugin descriptor
+ProjectUtils.RequiresTempTarget: GGGame.uproject requires a temporary target.cs to be generated (AndroidGoodies plugin is enabled)
+InternalUtils.SafeFileExists: SafeFileExists C:\Users\ACER\AppData\Local\Temp\UAT\E+USER+vova40227+EpicStore+UE_4.25\Rules\UATRules1548169760.dll=False
+DynamicCompilation.RequiresCompilation: Compiling C:\Users\ACER\AppData\Local\Temp\UAT\E+USER+vova40227+EpicStore+UE_4.25\Rules\UATRules1548169760.dll: Assembly does not exist
+ProjectParams.ValidateAndLog: Project Params **************
+ProjectParams.ValidateAndLog: AdditionalServerMapParams=
+ProjectParams.ValidateAndLog: Archive=True
+ProjectParams.ValidateAndLog: ArchiveMetaData=False
+ProjectParams.ValidateAndLog: CreateAppBundle=True
+ProjectParams.ValidateAndLog: BaseArchiveDirectory=E:\Sustem\Documenti\Unreal Projects\GGGame
+ProjectParams.ValidateAndLog: BaseStageDirectory=E:\Sustem\Documenti\Unreal Projects\GGGame\Saved\StagedBuilds
+ProjectParams.ValidateAndLog: Build=True
+ProjectParams.ValidateAndLog: SkipBuildClient=False
+ProjectParams.ValidateAndLog: SkipBuildEditor=False
+ProjectParams.ValidateAndLog: Cook=True
+ProjectParams.ValidateAndLog: Clean=True
+ProjectParams.ValidateAndLog: Client=False
+ProjectParams.ValidateAndLog: ClientConfigsToBuild=Shipping
+ProjectParams.ValidateAndLog: ClientCookedTargets=GGGame
+ProjectParams.ValidateAndLog: ClientTargetPlatform=Android
+ProjectParams.ValidateAndLog: Compressed=False
+ProjectParams.ValidateAndLog: AdditionalPakOptions=
+ProjectParams.ValidateAndLog: CookOnTheFly=False
+ProjectParams.ValidateAndLog: CookOnTheFlyStreaming=False
+ProjectParams.ValidateAndLog: UnversionedCookedContent=True
+ProjectParams.ValidateAndLog: SkipCookingEditorContent=True
+ProjectParams.ValidateAndLog: NumCookersToSpawn=0
+ProjectParams.ValidateAndLog: GeneratePatch=False
+ProjectParams.ValidateAndLog: AddPatchLevel=False
+ProjectParams.ValidateAndLog: StageBaseReleasePaks=False
+ProjectParams.ValidateAndLog: GenerateRemaster=False
+ProjectParams.ValidateAndLog: DiscVersion=
+ProjectParams.ValidateAndLog: CreateReleaseVersion=
+ProjectParams.ValidateAndLog: BasedOnReleaseVersion=
+ProjectParams.ValidateAndLog: DLCFile=
+ProjectParams.ValidateAndLog: DLCIncludeEngineContent=False
+ProjectParams.ValidateAndLog: DLCPakPluginFile=False
+ProjectParams.ValidateAndLog: DiffCookedContentPath=
+ProjectParams.ValidateAndLog: AdditionalCookerOptions=
+ProjectParams.ValidateAndLog: DedicatedServer=False
+ProjectParams.ValidateAndLog: DirectoriesToCook=
+ProjectParams.ValidateAndLog: CulturesToCook=<Not Specified> (Use Defaults)
+ProjectParams.ValidateAndLog: EditorTargets=
+ProjectParams.ValidateAndLog: Foreign=False
+ProjectParams.ValidateAndLog: IsCodeBasedProject=True
+ProjectParams.ValidateAndLog: IsProgramTarget=False
+ProjectParams.ValidateAndLog: IterativeCooking=False
+ProjectParams.ValidateAndLog: IterateSharedCookedBuild=
+ProjectParams.ValidateAndLog: IterateSharedBuildUsePrecompiledExe=False
+ProjectParams.ValidateAndLog: CookAll=False
+ProjectParams.ValidateAndLog: CookPartialGC=False
+ProjectParams.ValidateAndLog: CookInEditor=False
+ProjectParams.ValidateAndLog: CookMapsOnly=False
+ProjectParams.ValidateAndLog: Deploy=False
+ProjectParams.ValidateAndLog: IterativeDeploy=False
+ProjectParams.ValidateAndLog: FastCook=False
+ProjectParams.ValidateAndLog: LogWindow=False
+ProjectParams.ValidateAndLog: Manifests=False
+ProjectParams.ValidateAndLog: MapToRun=
+ProjectParams.ValidateAndLog: NoClient=False
+ProjectParams.ValidateAndLog: NumClients=0
+ProjectParams.ValidateAndLog: NoDebugInfo=True
+ProjectParams.ValidateAndLog: SeparateDebugInfo=False
+ProjectParams.ValidateAndLog: MapFile=False
+ProjectParams.ValidateAndLog: NoCleanStage=False
+ProjectParams.ValidateAndLog: NoXGE=False
+ProjectParams.ValidateAndLog: MapsToCook=
+ProjectParams.ValidateAndLog: MapIniSectionsToCook=
+ProjectParams.ValidateAndLog: Pak=True
+ProjectParams.ValidateAndLog: IoStore=False
+ProjectParams.ValidateAndLog: SkipIoStore=False
+ProjectParams.ValidateAndLog: Package=True
+ProjectParams.ValidateAndLog: ForcePackageData=False
+ProjectParams.ValidateAndLog: NullRHI=False
+ProjectParams.ValidateAndLog: FakeClient=False
+ProjectParams.ValidateAndLog: EditorTest=False
+ProjectParams.ValidateAndLog: RunAutomationTests=False
+ProjectParams.ValidateAndLog: RunAutomationTest=
+ProjectParams.ValidateAndLog: RunTimeoutSeconds=0
+ProjectParams.ValidateAndLog: CrashIndex=0
+ProjectParams.ValidateAndLog: ProgramTargets=
+ProjectParams.ValidateAndLog: ProjectPlatformBinariesPaths=[Android, E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android]
+ProjectParams.ValidateAndLog: ProjectExePaths=[Android, E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame]
+ProjectParams.ValidateAndLog: Distribution=True
+ProjectParams.ValidateAndLog: Prebuilt=False
+ProjectParams.ValidateAndLog: Prereqs=True
+ProjectParams.ValidateAndLog: AppLocalDirectory=
+ProjectParams.ValidateAndLog: NoBootstrapExe=False
+ProjectParams.ValidateAndLog: RawProjectPath=E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject
+ProjectParams.ValidateAndLog: Run=False
+ProjectParams.ValidateAndLog: ServerConfigsToBuild=Development
+ProjectParams.ValidateAndLog: ServerCookedTargets=
+ProjectParams.ValidateAndLog: ServerTargetPlatform=Android
+ProjectParams.ValidateAndLog: ShortProjectName=GGGame
+ProjectParams.ValidateAndLog: SignedPak=False
+ProjectParams.ValidateAndLog: SignPak=
+ProjectParams.ValidateAndLog: SkipCook=False
+ProjectParams.ValidateAndLog: SkipCookOnTheFly=False
+ProjectParams.ValidateAndLog: SkipPak=False
+ProjectParams.ValidateAndLog: PrePak=False
+ProjectParams.ValidateAndLog: SkipStage=False
+ProjectParams.ValidateAndLog: Stage=True
+ProjectParams.ValidateAndLog: bTreatNonShippingBinariesAsDebugFiles=False
+ProjectParams.ValidateAndLog: bUseExtraFlavor=False
+ProjectParams.ValidateAndLog: NativizeAssets=False
+ProjectParams.ValidateAndLog: StageDirectoryParam=
+ProjectParams.ValidateAndLog: AdditionalPackageOptions=
+ProjectParams.ValidateAndLog: Project Params **************
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject=True
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject=True
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject=True
+Project.Build: ********** BUILD COMMAND STARTED **********
+UE4Build.Build: ************************* UE4Build:
+UE4Build.Build: ************************* UseXGE: False
+UE4Build.Build: ************************* UseParallelExecutor: False
+InternalUtils.SafeFileExists: SafeFileExists E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe=True
+InternalUtils.SafeFileExists: SafeFileExists E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe=True
+CommandUtils.Run: Running: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe GGGame Android Shipping -Project="E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject" -Clean -NoHotReload "E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject" -NoUBTMakefiles  -remoteini="E:\Sustem\Documenti\Unreal Projects\GGGame" -skipdeploy -distribution -nobuilduht -log="C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\UBT-GGGame-Android-Shipping.txt"
+ProcessResult.StdOut:   Cleaning GGGame binaries...
+CommandUtils.Run: Took 15,2630766s to run UnrealBuildTool.exe, ExitCode=0
+InternalUtils.SafeFileExists: SafeFileExists E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe=True
+InternalUtils.SafeDeleteFile: SafeDeleteFile E:\Sustem\Documenti\Unreal Projects\GGGame\Intermediate\Build\Manifest.xml
+InternalUtils.SafeFileExists: SafeFileExists E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe=True
+CommandUtils.Run: Running: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe GGGame Android Shipping -Project="E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject"  "E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject" -NoUBTMakefiles  -remoteini="E:\Sustem\Documenti\Unreal Projects\GGGame" -skipdeploy -distribution -Manifest="E:\Sustem\Documenti\Unreal Projects\GGGame\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\UBT-GGGame-Android-Shipping_2.txt"
+ProcessResult.StdOut:   PLATFORM_ANDROID_NDK_VERSION = 210200
+ProcessResult.StdOut:   NDK toolchain: r21b, NDK version: 29, GccVersion: 4.9, ClangVersion: 9.0.8
+ProcessResult.StdOut:   Parsing headers for GGGame
+ProcessResult.StdOut:     Running UnrealHeaderTool "E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject" "E:\Sustem\Documenti\Unreal Projects\GGGame\Intermediate\Build\Android\GGGame\Shipping\GGGame.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\UHT-GGGame-Android-Shipping_2.txt" -installed
+ProcessResult.StdOut:   Reflection code generated for GGGame in 13,0334965 seconds
+ProcessResult.StdOut:   Compiling Native 32-bit code with NDK API 'android-29'
+ProcessResult.StdOut:   Writing manifest to E:\Sustem\Documenti\Unreal Projects\GGGame\Intermediate\Build\Manifest.xml
+ProcessResult.StdOut:   Building GGGame...
+ProcessResult.StdOut:   [Upgrade]
+ProcessResult.StdOut:   [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+ProcessResult.StdOut:   [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+ProcessResult.StdOut:   [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+ProcessResult.StdOut:   [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+ProcessResult.StdOut:   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GGGame.Target.cs, and explicitly overriding settings that differ from the new defaults.
+ProcessResult.StdOut:   [Upgrade]
+ProcessResult.StdOut:   Building 4 actions with 8 processes...
+ProcessResult.StdOut:     [1/4] SharedPCH.Core.h [armv7]
+ProcessResult.StdOut:     [2/4] GGGame.cpp [armv7]
+ProcessResult.StdOut:     [3/4] GGGame-Android-Shipping-armv7.so
+ProcessResult.StdOut:     [4/4] GGGame-Android-Shipping.target
+ProcessResult.StdOut:   Total time in Parallel executor: 131,55 seconds
+ProcessResult.StdOut:   Deploying GGGame Android Shipping...
+ProcessResult.StdOut:   AndroidPlugin: Plugins\Marketplace\AndroidGoodies\Source\AndroidGoodies\AndroidGoodies_UPL.xml
+ProcessResult.StdOut:   AndroidPlugin: Plugins\CloudSavedGame\Source\GooglePlaySavedGame\GooglePlaySavedGame_UPL_Android.xml
+ProcessResult.StdOut:   AndroidPlugin: Plugins\Online\Android\OnlineSubsystemGooglePlay\Source\OnlineSubsystemGooglePlay_UPL.xml
+ProcessResult.StdOut:   AndroidPlugin: Plugins\Runtime\AndroidPermission\Source\AndroidPermission\AndroidPermission_APL.xml
+ProcessResult.StdOut:   AndroidPlugin: Plugins\Runtime\GoogleCloudMessaging\Source\GoogleCloudMessaging\GoogleCloudMessaging_UPL.xml
+ProcessResult.StdOut:   AndroidPlugin: Plugins\Runtime\GooglePAD\Source\GooglePAD\GooglePAD_APL.xml
+ProcessResult.StdOut:   AndroidPlugin: Plugins\Runtime\Oculus\OculusVR\Source\OculusHMD\OculusMobile_APL.xml
+ProcessResult.StdOut:   AndroidPlugin: Source\Runtime\Online\Voice\AndroidVoiceImpl_UPL.xml
+ProcessResult.StdOut:   AndroidPlugin: Source\ThirdParty\GoogleGameSDK\GoogleGameSDK_APL.xml
+ProcessResult.StdOut:   UPL: ..\Plugins/Marketplace/AndroidGoodies/Source/AndroidGoodies/AndroidGoodies_UPL.xml
+ProcessResult.StdOut:   UPL: ..\Plugins/CloudSavedGame/Source/GooglePlaySavedGame/GooglePlaySavedGame_UPL_Android.xml
+ProcessResult.StdOut:   UPL: ..\Plugins/Online/Android/OnlineSubsystemGooglePlay/Source/OnlineSubsystemGooglePlay_UPL.xml
+ProcessResult.StdOut:   UPL: ..\Plugins/Runtime/AndroidPermission/Source/AndroidPermission/AndroidPermission_APL.xml
+ProcessResult.StdOut:   UPL: ..\Plugins/Runtime/GoogleCloudMessaging/Source/GoogleCloudMessaging/GoogleCloudMessaging_UPL.xml
+ProcessResult.StdOut:   UPL: ..\Plugins/Runtime/GooglePAD/Source/GooglePAD/GooglePAD_APL.xml
+ProcessResult.StdOut:   UPL: ..\Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/OculusMobile_APL.xml
+ProcessResult.StdOut:   UPL: ..\Source/Runtime/Online/Voice/AndroidVoiceImpl_UPL.xml
+ProcessResult.StdOut:   UPL: ..\Source/ThirdParty/GoogleGameSDK/GoogleGameSDK_APL.xml
+ProcessResult.StdOut:   Using package name: 'com.OvGames.CoinLife'
+ProcessResult.StdOut:   GotStoreVersion found v44. (bUseChangeListAsStoreVersion=False IsBuildMachine=False EngineChangeList=0)
+ProcessResult.StdOut:   Writing packageInfo pkgName:com.OvGames.CoinLife storeVersion:44 versionDisplayName:BetaV2.4.1 to E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\packageInfo.txt
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ====Вт 01.12.20 22:00:07====PREPARING TO MAKE APK=================================================================
+ProcessResult.StdOut:   bBuildForES31: true
+ProcessResult.StdOut:   bSupportsVulkan: false
+ProcessResult.StdOut:   Building Java with SDK API level 'android-28'
+ProcessResult.StdOut:   Building with Build Tools version '28.0.3'
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Writing to shim file E:\Sustem\Documenti\Unreal Projects\GGGame\Build\Android\src\com\epicgames\ue4\DownloadShim.java ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Shim data file up to date so not writing. ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Writing to template target file E:\Sustem\Documenti\Unreal Projects\GGGame\Build\Android\src\com\OvGames\CoinLife\AlarmReceiver.java ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Template target file up to date so not writing. ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Writing to template target file E:\Sustem\Documenti\Unreal Projects\GGGame\Build\Android\src\com\OvGames\CoinLife\DownloaderActivity.java ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Template target file up to date so not writing. ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Writing to template target file E:\Sustem\Documenti\Unreal Projects\GGGame\Build\Android\src\com\OvGames\CoinLife\OBBDownloaderService.java ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Template target file up to date so not writing. ====
+ProcessResult.StdOut:   Cleaning up files based on template dir E:\Sustem\Documenti\Unreal Projects\GGGame\Build\Android\src\com\OvGames\CoinLife
+ProcessResult.StdOut:   Application display name is different than last build, forcing repackage.
+ProcessResult.StdOut:   UPL Init: armeabi-v7a
+ProcessResult.StdOut:   AndroidGoodies initialization!
+ProcessResult.StdOut:   GooglePlaySavedGame moduel initialization
+ProcessResult.StdOut:   Subsystem Google Play SDK Android init
+ProcessResult.StdOut:   Android Permission Plugin Init
+ProcessResult.StdOut:   Google Cloud Messaging init
+ProcessResult.StdOut:   GCMClientSenderID set: false
+ProcessResult.StdOut:   GooglePAD Plugin Init
+ProcessResult.StdOut:   GooglePAD enabled: false
+ProcessResult.StdOut:   Oculus mobile init
+ProcessResult.StdOut:   Oculus Signature Files (osig) will be removed from APK
+ProcessResult.StdOut:   Android Voice init
+ProcessResult.StdOut:   GoogleGameSDK Android init
+ProcessResult.StdOut:   On build machine.
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ====Вт 01.12.20 22:00:09====PREPARING NATIVE CODE=====-armv7============================================================
+ProcessResult.StdOut:   bPackageDataInsideApk = True
+ProcessResult.StdOut:   Obb location E:\Sustem\Documenti\Unreal Projects\GGGame/Saved/StagedBuilds/Android.obb
+ProcessResult.StdOut:   Obb destination location E:\Sustem\Documenti\Unreal Projects\GGGame\Intermediate\Android\armv7/assets
+ProcessResult.StdOut:   Added repository: E:\NVPACK\android-sdk-windows\extras\android\m2repository
+ProcessResult.StdOut:   Added repository: ..\Source\ThirdParty\Android\extras\google\m2repository
+ProcessResult.StdOut:   Added repository: ..\Source\ThirdParty\Android\extras\android\m2repository
+ProcessResult.StdOut:   AARImports: com.google.android.gms, play-services-auth, 11.8.0
+ProcessResult.StdOut:   AARImports: com.google.android.gms, play-services-games, 11.8.0
+ProcessResult.StdOut:   AARImports: com.google.android.gms, play-services-nearby, 11.8.0
+ProcessResult.StdOut:   AARImports: com.google.android.gms, play-services-plus, 11.8.0
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   Directory ../Plugins/Marketplace/AndroidGoodies/Source/AndroidGoodies/Private/Java copied to E:/Sustem/Documenti/Unreal Projects/GGGame/Intermediate/Android/armv7/src/com/ninevastudios/androidgoodies
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   Directory ../Plugins/Marketplace/AndroidGoodies/Source/AndroidGoodies/Private/Xml copied to E:/Sustem/Documenti/Unreal Projects/GGGame/Intermediate/Android/armv7/res/xml
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   Directory ../Plugins/Marketplace/AndroidGoodies/Resources/Drawables copied to E:/Sustem/Documenti/Unreal Projects/GGGame/Intermediate/Android/armv7/res/drawable
+ProcessResult.StdOut:   Copying Google Play java files
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   Directory ../Plugins/Online/Android/OnlineSubsystemGooglePlay/Source/Java copied to E:/Sustem/Documenti/Unreal Projects/GGGame/Intermediate/Android/armv7/src
+ProcessResult.StdOut:   Copying permission_library directory to staging before build
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   Directory ..//Source/ThirdParty/AndroidPermission/permission_library copied to E:/Sustem/Documenti/Unreal Projects/GGGame/Intermediate/Android/armv7/JavaLibs/permission_library
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Writing to OBB data file E:\Sustem\Documenti\Unreal Projects\GGGame\Intermediate\Android\armv7\src\com\OvGames\CoinLife\OBBData.java ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Writing new GameActivity.java file to E:\Sustem\Documenti\Unreal Projects\GGGame\Intermediate\Android\armv7\src\com\epicgames\ue4\GameActivity.java ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ==== Writing new GameApplication.java file to E:\Sustem\Documenti\Unreal Projects\GGGame\Intermediate\Android\armv7\src\com\epicgames\ue4\GameApplication.java ====
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   Copying new .so E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame-Android-Shipping-armv7.so file to jni folder...
+ProcessResult.StdOut:   Copying libplaycore.so and proguard files
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   File E:/USER/vova40227/EpicStore/UE_4.25/Engine/Plugins/Runtime/GooglePAD/Source/GooglePAD/../ThirdParty/play-core-native-sdk/libs/armeabi-v7a/libplaycore.so copied to E:/Sustem/Documenti/Unreal Projects/GGGame/Intermediate/Android/armv7/libs/armeabi-v7a/libplaycore.so
+ProcessResult.StdOut:   Copying libvrapi.so
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   File ..//Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/armeabi-v7a/libvrapi.so copied to E:/Sustem/Documenti/Unreal Projects/GGGame/Intermediate/Android/armv7/libs/armeabi-v7a/libvrapi.so
+ProcessResult.StdOut:   Copying libOVRPlugin.so
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   File ..//Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Lib/armeabi-v7a/libOVRPlugin.so copied to E:/Sustem/Documenti/Unreal Projects/GGGame/Intermediate/Android/armv7/libs/armeabi-v7a/libOVRPlugin.so
+ProcessResult.StdOut:   Copying libOVRMrcLib.so
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   File ..//Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Lib/armeabi-v7a/libOVRMrcLib.so does not exist, not copied!
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   File ..//Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/VrApi.jar does not exist, not copied!
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   File ..//Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/SystemUtils.jar does not exist, not copied!
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ====Вт 01.12.20 22:00:19====PERFORMING FINAL APK PACKAGE OPERATION=====-armv7===========================================
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   Creating rungradle.bat to work around commandline length limit (using unused drive letter Z:)
+ProcessResult.StdOut:   Making .apk with Gradle...
+ProcessResult.StdOut:   To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+ProcessResult.StdOut:   Daemon will be stopped at the end of the build stopping after processing
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   > Configure project :app
+ProcessResult.StdOut:   Updating android.support.v4.app.NotificationManagerCompat to androidx.core.app.NotificationManagerCompat in file Z:\app\src\main\java\com\epicgames\ue4\GameActivity.java
+ProcessResult.StdOut:   Updating android.support.v4.content.FileProvider to androidx.core.content.FileProvider in file Z:\app\src\main\java\com\epicgames\ue4\GameActivity.java
+ProcessResult.StdOut:   Updating android.arch.lifecycle to androidx.lifecycle in file Z:\app\src\main\java\com\epicgames\ue4\GameApplication.java
+ProcessResult.StdOut:   Updating android.support.v4.app.NotificationCompat to androidx.core.app.NotificationCompat in file Z:\app\src\main\java\com\epicgames\ue4\LocalNotificationReceiver.java
+ProcessResult.StdOut:   Updating android.support.annotation to androidx.annotation in file Z:\app\src\main\java\com\epicgames\ue4\network\NetworkChangedManager.java
+ProcessResult.StdOut:   Updating android.support.annotation to androidx.annotation in file Z:\app\src\main\java\com\epicgames\ue4\network\NetworkConnectivityClient.java
+ProcessResult.StdOut:   Updating android.support.v4.app.ActivityCompat to androidx.core.app.ActivityCompat in file Z:\app\src\main\java\com\epicgames\ue4\SplashActivity.java
+ProcessResult.StdOut:   Updating android.support.v4.content.ContextCompat to androidx.core.content.ContextCompat in file Z:\app\src\main\java\com\epicgames\ue4\SplashActivity.java
+ProcessResult.StdOut:   Updating android.support.v4.app.NotificationCompat to androidx.core.app.NotificationCompat in file Z:\app\src\main\java\com\google\android\vending\expansion\downloader\impl\DownloadNotification.java
+ProcessResult.StdOut:   Updating android.support.v13.app.FragmentCompat to androidx.legacy.app.FragmentCompat in file Z:\permission_library\src\main\java\com\google\vr\sdk\samples\permission\PermissionFragment.java
+ProcessResult.StdOut:   Updating android.support.v4.content.ContextCompat to androidx.core.content.ContextCompat in file Z:\permission_library\src\main\java\com\google\vr\sdk\samples\permission\PermissionHelper.java
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   > Task :app:preBuild UP-TO-DATE
+ProcessResult.StdOut:   > Task :app:preDebugBuild UP-TO-DATE
+ProcessResult.StdOut:   > Task :downloader_library:preBuild UP-TO-DATE
+ProcessResult.StdOut:   > Task :downloader_library:preDebugBuild UP-TO-DATE
+ProcessResult.StdOut:   > Task :downloader_library:compileDebugAidl NO-SOURCE
+ProcessResult.StdOut:   > Task :permission_library:preBuild UP-TO-DATE
+ProcessResult.StdOut:   > Task :permission_library:preDebugBuild UP-TO-DATE
+ProcessResult.StdOut:   > Task :permission_library:compileDebugAidl NO-SOURCE
+ProcessResult.StdOut:   > Task :app:compileDebugAidl
+ProcessResult.StdOut:   > Task :downloader_library:packageDebugRenderscript NO-SOURCE
+ProcessResult.StdOut:   > Task :permission_library:packageDebugRenderscript NO-SOURCE
+ProcessResult.StdOut:   > Task :app:checkDebugManifest
+ProcessResult.StdOut:   > Task :app:generateDebugBuildConfig
+ProcessResult.StdOut:   > Task :app:compileDebugRenderscript NO-SOURCE
+ProcessResult.StdOut:   > Task :downloader_library:compileDebugRenderscript NO-SOURCE
+ProcessResult.StdOut:   > Task :downloader_library:checkDebugManifest
+ProcessResult.StdOut:   > Task :downloader_library:generateDebugBuildConfig
+ProcessResult.StdOut:   > Task :downloader_library:generateDebugResValues
+ProcessResult.StdOut:   > Task :downloader_library:generateDebugResources
+ProcessResult.StdOut:   > Task :downloader_library:packageDebugResources
+ProcessResult.StdOut:   > Task :permission_library:checkDebugManifest
+ProcessResult.StdOut:   > Task :permission_library:compileDebugRenderscript NO-SOURCE
+ProcessResult.StdOut:   > Task :permission_library:generateDebugBuildConfig
+ProcessResult.StdOut:   > Task :downloader_library:javaPreCompileDebug
+ProcessResult.StdOut:   > Task :downloader_library:parseDebugLibraryResources
+ProcessResult.StdOut:   > Task :downloader_library:processDebugManifest
+ProcessResult.StdOut:   > Task :permission_library:generateDebugResValues
+ProcessResult.StdOut:   > Task :permission_library:generateDebugResources
+ProcessResult.StdOut:   > Task :permission_library:packageDebugResources
+ProcessResult.StdOut:   > Task :downloader_library:generateDebugRFile
+ProcessResult.StdOut:   > Task :downloader_library:compileDebugJavaWithJavac
+ProcessResult.StdOut:   > Task :permission_library:processDebugManifest
+ProcessResult.StdOut:   > Task :permission_library:javaPreCompileDebug
+ProcessResult.StdOut:   > Task :permission_library:parseDebugLibraryResources
+ProcessResult.StdOut:   > Task :downloader_library:bundleLibCompileDebug
+ProcessResult.StdOut:   > Task :app:mainApkListPersistenceDebug
+ProcessResult.StdOut:   > Task :permission_library:generateDebugRFile
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   > Task :permission_library:compileDebugJavaWithJavac
+ProcessResult.StdOut:   Note: Z:\permission_library\src\main\java\com\google\vr\sdk\samples\permission\PermissionFragment.java uses or overrides a deprecated API.
+ProcessResult.StdOut:   Note: Recompile with -Xlint:deprecation for details.
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   > Task :permission_library:bundleLibCompileDebug
+ProcessResult.StdOut:   > Task :app:generateDebugResValues
+ProcessResult.StdOut:   > Task :app:generateDebugResources
+ProcessResult.StdOut:   > Task :app:javaPreCompileDebug
+ProcessResult.StdOut:   > Task :app:mergeDebugResources
+ProcessResult.StdOut:   > Task :app:createDebugCompatibleScreenManifests
+ProcessResult.StdOut:   > Task :app:processDebugManifest
+ProcessResult.StdOut:   > Task :app:processDebugResources
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   > Task :app:compileDebugJavaWithJavac
+ProcessResult.StdOut:   Gradle may disable incremental compilation as the following annotation processors are not incremental: lifecycle-compiler-2.0.0.jar (androidx.lifecycle:lifecycle-compiler:2.0.0).
+ProcessResult.StdOut:   Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+ProcessResult.StdOut:   Note: Some input files use or override a deprecated API.
+ProcessResult.StdOut:   Note: Recompile with -Xlint:deprecation for details.
+ProcessResult.StdOut:   Note: Some input files use unchecked or unsafe operations.
+ProcessResult.StdOut:   Note: Recompile with -Xlint:unchecked for details.
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   > Task :app:compileDebugSources
+ProcessResult.StdOut:   > Task :app:mergeDebugShaders
+ProcessResult.StdOut:   > Task :app:compileDebugShaders
+ProcessResult.StdOut:   > Task :app:generateDebugAssets
+ProcessResult.StdOut:   > Task :downloader_library:mergeDebugShaders
+ProcessResult.StdOut:   > Task :downloader_library:compileDebugShaders
+ProcessResult.StdOut:   > Task :downloader_library:generateDebugAssets
+ProcessResult.StdOut:   > Task :downloader_library:packageDebugAssets
+ProcessResult.StdOut:   > Task :permission_library:mergeDebugShaders
+ProcessResult.StdOut:   > Task :permission_library:compileDebugShaders
+ProcessResult.StdOut:   > Task :permission_library:generateDebugAssets
+ProcessResult.StdOut:   > Task :permission_library:packageDebugAssets
+ProcessResult.StdOut:   > Task :app:mergeDebugAssets
+ProcessResult.StdOut:   > Task :app:processDebugJavaRes NO-SOURCE
+ProcessResult.StdOut:   > Task :downloader_library:processDebugJavaRes NO-SOURCE
+ProcessResult.StdOut:   > Task :permission_library:processDebugJavaRes NO-SOURCE
+ProcessResult.StdOut:   > Task :downloader_library:bundleLibResDebug
+ProcessResult.StdOut:   > Task :permission_library:bundleLibResDebug
+ProcessResult.StdOut:   > Task :app:checkDebugDuplicateClasses
+ProcessResult.StdOut:   > Task :app:transformClassesWithDexBuilderForDebug
+ProcessResult.StdOut:   > Task :app:mergeExtDexDebug
+ProcessResult.StdOut:   > Task :app:validateSigningDebug
+ProcessResult.StdOut:   > Task :app:signingConfigWriterDebug
+ProcessResult.StdOut:   > Task :permission_library:bundleLibRuntimeDebug
+ProcessResult.StdOut:   > Task :downloader_library:bundleLibRuntimeDebug
+ProcessResult.StdOut:   > Task :app:mergeDebugJavaResource
+ProcessResult.StdOut:   > Task :app:mergeLibDexDebug
+ProcessResult.StdOut:   > Task :app:mergeProjectDexDebug
+ProcessResult.StdOut:   > Task :app:mergeDebugJniLibFolders
+ProcessResult.StdOut:   > Task :downloader_library:mergeDebugJniLibFolders
+ProcessResult.StdOut:   > Task :permission_library:mergeDebugJniLibFolders
+ProcessResult.StdOut:   > Task :downloader_library:mergeDebugNativeLibs
+ProcessResult.StdOut:   > Task :downloader_library:stripDebugDebugSymbols
+ProcessResult.StdOut:   > Task :downloader_library:transformNativeLibsWithIntermediateJniLibsForDebug
+ProcessResult.StdOut:   > Task :permission_library:mergeDebugNativeLibs
+ProcessResult.StdOut:   > Task :permission_library:stripDebugDebugSymbols
+ProcessResult.StdOut:   > Task :permission_library:transformNativeLibsWithIntermediateJniLibsForDebug
+ProcessResult.StdOut:   > Task :app:mergeDebugNativeLibs
+ProcessResult.StdOut:   > Task :app:stripDebugDebugSymbols
+ProcessResult.StdOut:   > Task :app:packageDebug
+ProcessResult.StdOut:   > Task :app:assembleDebug
+ProcessResult.StdOut:   > Task :app:ue4CompleteDebug
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+ProcessResult.StdOut:   Use '--warning-mode all' to show the individual deprecation warnings.
+ProcessResult.StdOut:   See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   BUILD SUCCESSFUL in 2m 34s
+ProcessResult.StdOut:   65 actionable tasks: 65 executed
+ProcessResult.StdOut:   Writing symbols to E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries/Android\GGGame_Symbols_v44/GGGame-armv7\libUE4.so
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   ====Вт 01.12.20 22:03:34====COMPLETED MAKE APK=======================================================================
+ProcessResult.StdOut:   Total execution time: 404,09 seconds
+CommandUtils.Run: Took 406,2654959s to run UnrealBuildTool.exe, ExitCode=0
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame-Android-Shipping.target=True
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame-Android-Shipping.target=True
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame-Android-Shipping-armv7.so=True
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame-Android-Shipping-armv7.so=True
+InternalUtils.SafeDeleteFile: SafeDeleteFile E:\Sustem\Documenti\Unreal Projects\GGGame\Intermediate\Build\Manifest.xml
+UE4Build.CheckBuildProducts: Build products *******
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame-Android-Shipping.target=True
+UE4Build.CheckBuildProducts: E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame-Android-Shipping.target
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame-Android-Shipping-armv7.so=True
+UE4Build.CheckBuildProducts: E:\Sustem\Documenti\Unreal Projects\GGGame\Binaries\Android\GGGame-Android-Shipping-armv7.so
+UE4Build.CheckBuildProducts: End Build products *******
+Project.Build: ********** BUILD COMMAND COMPLETED **********
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject=True
+Project.Cook: ********** COOK COMMAND STARTED **********
+InternalUtils.SafeFileExists: SafeFileExists E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe=True
+Project.Cook: Cleaning cooked data.
+CommandUtils.RunCommandlet: Running UE4Editor Cook for project E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject
+CommandUtils.RunCommandlet: Commandlet log file is E:\USER\vova40227\EpicStore\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.12.01-22.03.38.txt
+InternalUtils.SafeFileExists: SafeFileExists E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe=True
+CommandUtils.Run: Running: E:\USER\vova40227\EpicStore\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe "E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject" -run=Cook  -TargetPlatform=Android_ETC2 -fileopenlog -unversioned -skipeditorcontent -abslog=E:\USER\vova40227\EpicStore\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.12.01-22.03.38.txt -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+ProcessResult.StdOut:   LogInit: Display: Running engine for game: GGGame
+ProcessResult.StdOut:   LogHAL: Display: Platform has ~ 8 GB [8396234752 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+ProcessResult.StdOut:   LogTargetPlatformManager: Display: Building Assets For Android_ETC2
+ProcessResult.StdOut:   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Using Local Shader Compiler.
+ProcessResult.StdOut:   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+ProcessResult.StdOut:   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ACER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+ProcessResult.StdOut:   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling.
+ProcessResult.StdOut:   LogUObjectGlobals: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+ProcessResult.StdOut:   LogUObjectGlobals: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+ProcessResult.StdOut:   LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material DefaultSpriteMaterial, compiling.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (5/5): shaders left to compile 26
+ProcessResult.StdOut:   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+ProcessResult.StdOut:   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+ProcessResult.StdOut:   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+ProcessResult.StdOut:   LogCook: Display: Mobile HDR setting 1
+ProcessResult.StdOut:   LogCook: Display: Creating asset registry
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+ProcessResult.StdOut:   LogCook: Display: Discovering localized assets for cultures: en
+ProcessResult.StdOut:   LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2 invalidating cook
+ProcessResult.StdOut:   LogCook: Display: Clearing all cooked content for platform Android_ETC2
+ProcessResult.StdOut:   LogCook: Display: Sandbox cleanup took 0.403 seconds for platforms Android_ETC2
+ProcessResult.StdOut:   LogCook: Display: Cooked packages 0 Packages Remain 177 Total 177
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material DefaultTextMaterialOpaque, compiling.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 35
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 860
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 859
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 858
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 857
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 856
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 855
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 854
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 853
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 852
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 851
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 850
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 849
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 848
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 847
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 846
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 845
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 844
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 843
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 842
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 841
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 840
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 839
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 838
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 837
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 836
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 835
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 834
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 833
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 832
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 831
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 830
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 829
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 828
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 827
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 826
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 825
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 824
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 823
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 822
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 821
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 820
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 819
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 818
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 817
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 816
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 815
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 814
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 813
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 812
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 811
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 810
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 809
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 808
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 807
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 806
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 805
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 804
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 803
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 802
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 801
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 800
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 799
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 798
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 797
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 796
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 795
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 794
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 793
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 792
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 791
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 790
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 789
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 788
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 787
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 786
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 785
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 784
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 783
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 782
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 781
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 780
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 779
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 778
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 777
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 776
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 775
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 774
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 773
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 772
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 771
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 770
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 769
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 768
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 767
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 766
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 765
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 764
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 763
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 762
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 761
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 760
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 759
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 758
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 757
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 756
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 755
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 754
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 753
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 752
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 751
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 750
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 749
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 748
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 747
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 746
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 745
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 744
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 743
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 742
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 741
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 740
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 739
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 738
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 737
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 736
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 735
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 734
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 733
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 732
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 731
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 730
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 729
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 728
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 727
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 726
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 725
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 724
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 723
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 722
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 721
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 720
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 719
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 718
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 717
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 716
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 715
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 714
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 713
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 712
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 711
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 710
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 709
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 708
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 707
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 706
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 705
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 704
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 703
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 702
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 701
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 700
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 699
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 698
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 697
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 696
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 695
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 694
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 693
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 692
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 691
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 690
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 689
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 688
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 687
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 686
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 685
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 684
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 683
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 682
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 681
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 680
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 679
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 678
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 677
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 676
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 675
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 674
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 673
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 672
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 671
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 670
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 669
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 668
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 667
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 666
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 665
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 664
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 663
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 662
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 661
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 660
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 659
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 658
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 657
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 656
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 655
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 654
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 653
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 652
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 651
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 650
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 649
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 648
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 647
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 646
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 645
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 644
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 643
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 642
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 641
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 640
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 639
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 638
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 637
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 636
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 635
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 634
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 633
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 632
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 631
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 630
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 629
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 628
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 627
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 626
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 625
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 624
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 623
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 622
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 621
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 620
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 619
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 618
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 617
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 616
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 615
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 614
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 613
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 612
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 611
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 610
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 609
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 608
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 607
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 606
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 605
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 604
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 603
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 602
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 601
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 600
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 599
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 598
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 597
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 596
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 595
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 594
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 593
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 592
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 591
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 590
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 589
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 588
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 587
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 586
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 585
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 584
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 583
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 582
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 581
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 580
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 579
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 578
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 577
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 576
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 575
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 574
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 573
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 572
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 571
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 570
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 569
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 568
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 567
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 566
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 565
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 564
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 563
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 562
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 561
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 560
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 559
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 558
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 557
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 556
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 555
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 554
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 553
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 552
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 551
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 550
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 549
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 548
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 547
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 546
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 545
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 544
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 543
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 542
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 541
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 540
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 539
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 538
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 537
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 536
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 535
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 534
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 533
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 532
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 531
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 530
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 529
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 528
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 527
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 526
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 525
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 524
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 523
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 522
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 521
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 520
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 519
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 518
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 517
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 516
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 515
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 514
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 513
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 512
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 511
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 510
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 509
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 508
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 507
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 506
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 505
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 504
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 503
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 502
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 501
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 500
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 499
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 498
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 497
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 496
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 495
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 494
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 493
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 492
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 491
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 490
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 489
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 488
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 487
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 486
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 485
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 484
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 483
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 482
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 481
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 480
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 479
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 478
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 477
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 476
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 475
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 474
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 473
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 472
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 471
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 470
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 469
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 468
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 467
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 466
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 465
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 464
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 463
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 462
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 461
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 460
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 459
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 458
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 457
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 456
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 455
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 454
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 453
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 452
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 451
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 450
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 449
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 448
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 447
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 446
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 445
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 444
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 443
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 442
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 441
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 440
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 439
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 438
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 437
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 436
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 435
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 434
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 433
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 432
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 431
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 430
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 429
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 428
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 427
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 426
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 425
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 424
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 423
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 422
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 421
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 420
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 419
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 418
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 417
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 416
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 415
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 414
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 413
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 412
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 411
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 410
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 409
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 408
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 407
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 406
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 405
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 404
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 403
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 402
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 401
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 400
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 399
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 398
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 397
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 396
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 395
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 394
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 393
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 392
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 391
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 390
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 389
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 388
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 387
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 386
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 385
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 384
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 383
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 382
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 381
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 380
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 379
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 378
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 377
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 376
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 375
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 374
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 373
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 372
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 371
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 370
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 369
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 368
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 367
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 366
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 365
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 364
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 363
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 362
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 361
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 360
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 359
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 358
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 357
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 356
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 355
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 354
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 353
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 352
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 351
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 350
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 349
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 348
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 347
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 346
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 345
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 344
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 343
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 342
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 341
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 340
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 339
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 338
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 337
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 336
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 335
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 334
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 333
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 332
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 331
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 330
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 329
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 328
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 327
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 326
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 325
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 324
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 323
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 322
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 321
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 320
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 319
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 318
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 317
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 316
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 315
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 314
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 313
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 312
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 311
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 310
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 309
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 308
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 307
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 306
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 305
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 304
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 303
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 302
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 301
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 300
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 299
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 298
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 297
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 296
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 295
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 294
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 293
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 292
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 291
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 290
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 289
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 288
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 287
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 286
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 285
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 284
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 283
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 282
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 281
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 280
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 279
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 278
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 277
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 276
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 275
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 274
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 273
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 272
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 271
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 270
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 269
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 268
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 267
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 266
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 265
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 264
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 263
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 262
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 261
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 260
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 259
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 258
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 257
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 256
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 255
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 254
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 253
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 252
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 251
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 250
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 249
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 248
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 247
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 246
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 245
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 244
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 243
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 242
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 241
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 240
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 239
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 238
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 237
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 236
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 235
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 234
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 233
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 232
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 231
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 230
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 229
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 228
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 227
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 226
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 225
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 224
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 223
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 222
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 221
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 220
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 219
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 218
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 217
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 216
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 215
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 214
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 213
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 212
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 211
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 210
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 209
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 208
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 207
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 206
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 205
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 204
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 203
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 202
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 201
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 200
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 199
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 198
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 197
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 196
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 195
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 194
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 193
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 192
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 191
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 190
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 189
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 188
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 187
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 186
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 185
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 184
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 183
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 182
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 181
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 180
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 179
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 178
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 177
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 176
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 175
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 174
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 173
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 172
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 171
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 170
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 169
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 168
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 167
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 166
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 165
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 164
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 163
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 162
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 161
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 160
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 159
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 158
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 157
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 156
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 155
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 154
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 153
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 152
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 151
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 150
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 149
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 148
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 147
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 146
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 145
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 144
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 143
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 142
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 141
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 140
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 139
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 138
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 137
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 136
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 135
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 134
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 133
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 132
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 131
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 130
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 129
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 128
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 127
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 126
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 125
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 124
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 123
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 122
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 121
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 120
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 119
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 118
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 117
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 116
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 115
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 114
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 113
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 112
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 111
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 110
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 109
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 108
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 107
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 106
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 105
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 104
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 103
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 102
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 101
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 100
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 99
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 98
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 97
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 96
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 95
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 94
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 93
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 92
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 91
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 90
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 89
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 88
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 87
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 86
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 85
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 84
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 83
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 82
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 81
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 80
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 79
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 78
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 77
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 76
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 75
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 74
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 73
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 72
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 71
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 70
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 69
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 68
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 67
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 66
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 65
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 64
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 63
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 62
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 61
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 60
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 59
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 57
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 56
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 55
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 54
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 53
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 52
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 51
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 50
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 48
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 47
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 45
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 44
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 43
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 42
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 41
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 40
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 39
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 38
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 37
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 35
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 187
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 186
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 185
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 184
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 183
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 182
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 181
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 180
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 179
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 178
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 177
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 176
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 175
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 174
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 173
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 172
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 171
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 170
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 169
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 168
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 167
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 166
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 165
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 164
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 163
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 162
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 161
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 160
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 159
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 158
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 157
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 156
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 155
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 154
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 153
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 152
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 151
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 150
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 149
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 148
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 147
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 146
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 145
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 144
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 143
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 142
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 141
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 140
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 139
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 138
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 137
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 136
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 135
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 134
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 133
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 132
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 131
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 130
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 129
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 128
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 127
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 126
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 125
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 124
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 123
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 122
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 121
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 120
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 119
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 118
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 117
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 116
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 115
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 114
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 113
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 112
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 111
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 110
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 109
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 108
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 107
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 106
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 105
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 104
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 103
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 102
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 101
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 100
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 99
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 98
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 97
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 96
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 95
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 94
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 93
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 92
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 91
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 90
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 89
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 88
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 87
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 86
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 85
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 84
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 83
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 82
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 81
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 80
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 79
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 78
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 77
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 76
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 75
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 74
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 73
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 72
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 71
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 70
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 69
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 68
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 67
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 66
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 65
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 64
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 63
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 62
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 61
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 59
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 58
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 56
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 55
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 54
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 53
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 52
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 50
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 47
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 46
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 45
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 44
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 43
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 42
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 41
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 38
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 37
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 35
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 34
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 31
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 30
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material DefaultLightFunctionMaterial, compiling.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material DefaultPostProcessMaterial, compiling.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material BaseFlattenMaterial, compiling.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 49
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 39
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material Main, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material Xray, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material TransformGizmoMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material CineMat, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material M_SimpleUnlitTranslucent, compiling.
+ProcessResult.StdOut:   LogCook: Display: Cooked packages 50 Packages Remain 213 Total 263
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material DefaultSpriteMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material DefaultMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material M_VolumeRenderSphereTracePP, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material OculusMR_WhiteMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material OculusMR_ChromaKey, compiling.
+ProcessResult.StdOut:   LogCook: Display: Cooked packages 100 Packages Remain 212 Total 312
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material OculusMR_ChromaKey_Lit, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material OculusMR_OpaqueColoredMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material RemoveSurfaceMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material DebugMeshMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material EmissiveMeshMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material M_InvalidLightmapSettings, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material GizmoMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material PhAT_JointLimitMaterial, compiling.
+ProcessResult.StdOut:   LogCook: Display: Cooked packages 150 Packages Remain 211 Total 361
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling.
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material DebugEditorMaterial, compiling.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 731
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 721
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 711
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 701
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 691
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 681
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 671
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 661
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 651
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 641
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 631
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 621
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 611
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 601
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 591
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 581
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 571
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 561
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 551
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 541
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 531
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 521
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 511
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 501
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 491
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 481
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 471
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 461
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 451
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 441
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 431
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 421
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 411
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 401
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 391
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 381
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 371
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 361
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 351
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 341
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 331
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 321
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 311
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 301
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 291
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 281
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 271
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 261
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 251
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 241
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 231
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 221
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 211
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 201
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 191
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 181
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 171
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 161
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 151
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 141
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 131
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 121
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 111
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 101
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 91
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 81
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 71
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 61
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 51
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 41
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+ProcessResult.StdOut:   LogCook: Display: Cooked packages 197 Packages Remain 60 Total 257
+ProcessResult.StdOut:   LogCook: Display: Cooked packages 213 Packages Remain 59 Total 272
+ProcessResult.StdOut:   LogCook: Display: Cooked packages 214 Packages Remain 58 Total 272
+ProcessResult.StdOut:   LogMaterial: Display: Missing cached shader map for material OpacityMat, compiling.
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+ProcessResult.StdOut:   LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+ProcessResult.StdOut:   LogCook: Display: Cooked packages 221 Packages Remain 0 Total 221
+ProcessResult.StdOut:   LogCook: Display: Finishing up...
+ProcessResult.StdOut:   LogCook: Display: Saving BulkData manifest(s)...
+ProcessResult.StdOut:   LogCook: Display: Done saving BulkData manifest(s)
+ProcessResult.StdOut:   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+ProcessResult.StdOut:   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+ProcessResult.StdOut:   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+ProcessResult.StdOut:   LogShaderLibrary: Display:
+ProcessResult.StdOut:   LogShaderLibrary: Display: Shader Code Stats: GLSL_ES3_1_ANDROID
+ProcessResult.StdOut:   LogShaderLibrary: Display: =================
+ProcessResult.StdOut:   LogShaderLibrary: Display: Unique Shaders: 1159, Total Shaders: 5351
+ProcessResult.StdOut:   LogShaderLibrary: Display: Unique Shaders Size: 3.19mb, Total Shader Size: 3.19mb
+ProcessResult.StdOut:   LogShaderLibrary: Display: =================
+ProcessResult.StdOut:   LogAssetRegistryGenerator: Display: Saving asset registry.
+ProcessResult.StdOut:   LogAssetRegistryGenerator: Display: Generated asset registry num assets 167, size is 76.44kb
+ProcessResult.StdOut:   LogAssetRegistryGenerator: Display: Done saving asset registry.
+ProcessResult.StdOut:   LogCook: Display: Cook by the book total time in tick 743.498386s total time 751.457092
+ProcessResult.StdOut:   LogCook: Display: Peak Used virtual 596MB Peak Used physical 630MB
+ProcessResult.StdOut:   LogCook: Display: Hierarchy Timer Information:
+ProcessResult.StdOut:   LogCook: Display:   Root: 0.000s (0)
+ProcessResult.StdOut:   LogCook: Display:     StartCookByTheBookTime: 7.545s (1)
+ProcessResult.StdOut:   LogCook: Display:       CleanSandbox: 0.403s (1)
+ProcessResult.StdOut:   LogCook: Display:         ProcessingAccessedStrings: 0.016s (1)
+ProcessResult.StdOut:   LogCook: Display:       CollectFilesToCook: 0.595s (1)
+ProcessResult.StdOut:   LogCook: Display:         CookModificationDelegate: 0.000s (1)
+ProcessResult.StdOut:   LogCook: Display:         GeneratePackageNames: 0.004s (1)
+ProcessResult.StdOut:   LogCook: Display:       GenerateLongPackageName: 0.001s (1)
+ProcessResult.StdOut:   LogCook: Display:     TickCookOnTheSide: 743.445s (27)
+ProcessResult.StdOut:   LogCook: Display:       LoadPackage: 3.184s (26)
+ProcessResult.StdOut:   LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.510s (27)
+ProcessResult.StdOut:   LogCook: Display:       PostLoadPackageFixup: 0.000s (27)
+ProcessResult.StdOut:   LogCook: Display:       SavingPackages: 739.748s (7)
+ProcessResult.StdOut:   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.000s (322)
+ProcessResult.StdOut:   LogCook: Display:         PrecachePlatformDataForNextNextPackage: 445.330s (319)
+ProcessResult.StdOut:   LogCook: Display:         SaveCookedPackage: 294.190s (221)
+ProcessResult.StdOut:   LogCook: Display:           LoadPackage: 0.001s (172)
+ProcessResult.StdOut:   LogCook: Display:           GEditorSavePackage: 294.171s (172)
+ProcessResult.StdOut:   LogCook: Display:             ConvertingBlueprints: 0.052s (172)
+ProcessResult.StdOut:   LogCook: Display:             VerifyCanCookPackage: 0.003s (167)
+ProcessResult.StdOut:   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.011s (221)
+ProcessResult.StdOut:   LogCook: Display:         EnqueueUnsavedPackages: 0.000s (4)
+ProcessResult.StdOut:   LogCook: Display:     FinalizePackageStore: 0.002s (1)
+ProcessResult.StdOut:   LogCook: Display:     GeneratingBlueprintAssets: 0.049s (1)
+ProcessResult.StdOut:   LogCook: Display:     SavingCurrentIniSettings: 0.142s (1)
+ProcessResult.StdOut:   LogCook: Display:       ProcessingAccessedStrings: 0.018s (1)
+ProcessResult.StdOut:   LogCook: Display:     SavingAssetRegistry: 0.139s (1)
+ProcessResult.StdOut:   LogCook: Display:       BuildChunkManifest: 0.064s (1)
+ProcessResult.StdOut:   LogCook: Display:       SaveManifests: 0.011s (1)
+ProcessResult.StdOut:   LogCook: Display:       SaveRealAssetRegistry: 0.059s (1)
+ProcessResult.StdOut:   LogCook: Display:       WriteCookerOpenOrder: 0.005s (1)
+ProcessResult.StdOut:   LogCook: Display: Done!
+ProcessResult.StdOut:   LogSavePackage: Display: Took 0.020849s to verify the EDL loading graph.
+ProcessResult.StdOut:   LogCookCommandlet: Display: Misc Cook Stats
+ProcessResult.StdOut:   LogCookCommandlet: Display: ===============
+ProcessResult.StdOut:   LogCookCommandlet: Display: NiagaraShader.Misc
+ProcessResult.StdOut:   LogCookCommandlet: Display:     ShadersCompiled=0
+ProcessResult.StdOut:   LogCookCommandlet: Display: ShaderCompiler
+ProcessResult.StdOut:   LogCookCommandlet: Display:     BlockingTimeSec=725.302478
+ProcessResult.StdOut:   LogCookCommandlet: Display:     AsyncCompileTimeSec=2967.417923
+ProcessResult.StdOut:   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=2.401965
+ProcessResult.StdOut:   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=1933
+ProcessResult.StdOut:   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.516592
+ProcessResult.StdOut:   LogCookCommandlet: Display: GlobalShader.Misc
+ProcessResult.StdOut:   LogCookCommandlet: Display:     ShadersCompiled=0
+ProcessResult.StdOut:   LogCookCommandlet: Display: MeshMaterial.Misc
+ProcessResult.StdOut:   LogCookCommandlet: Display:     ShadersCompiled=1928
+ProcessResult.StdOut:   LogCookCommandlet: Display: MaterialShader.Misc
+ProcessResult.StdOut:   LogCookCommandlet: Display:     ShadersCompiled=5
+ProcessResult.StdOut:   LogCookCommandlet: Display: Package.Load
+ProcessResult.StdOut:   LogCookCommandlet: Display:     NumPackagesLoaded=158
+ProcessResult.StdOut:   LogCookCommandlet: Display:     LoadPackageTimeSec=5.388989
+ProcessResult.StdOut:   LogCookCommandlet: Display: Package.Save
+ProcessResult.StdOut:   LogCookCommandlet: Display:     NumPackagesSaved=172
+ProcessResult.StdOut:   LogCookCommandlet: Display:     SavePackageTimeSec=294.038625
+ProcessResult.StdOut:   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=291.234366
+ProcessResult.StdOut:   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.438419
+ProcessResult.StdOut:   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000246
+ProcessResult.StdOut:   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.002872
+ProcessResult.StdOut:   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.008817
+ProcessResult.StdOut:   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000933
+ProcessResult.StdOut:   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+ProcessResult.StdOut:   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.717710
+ProcessResult.StdOut:   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.554083
+ProcessResult.StdOut:   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.019196
+ProcessResult.StdOut:   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+ProcessResult.StdOut:   LogCookCommandlet: Display:     MBWritten=50.235320
+ProcessResult.StdOut:   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+ProcessResult.StdOut:   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+ProcessResult.StdOut:   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+ProcessResult.StdOut:   LogCookCommandlet: Display: Package.DiffTotal
+ProcessResult.StdOut:   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+ProcessResult.StdOut:   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+ProcessResult.StdOut:   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+ProcessResult.StdOut:   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+ProcessResult.StdOut:   LogCookCommandlet: Display: UnversionedProperties
+ProcessResult.StdOut:   LogCookCommandlet: Display:     SavedStructs=0
+ProcessResult.StdOut:   LogCookCommandlet: Display:     SavedMB=0
+ProcessResult.StdOut:   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+ProcessResult.StdOut:   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+ProcessResult.StdOut:   LogCookCommandlet: Display:     BitfieldWasteKB=0
+ProcessResult.StdOut:   LogCookCommandlet: Display:
+ProcessResult.StdOut:   LogCookCommandlet: Display: Cook Profile
+ProcessResult.StdOut:   LogCookCommandlet: Display: ============
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0.CookWallTimeSec=770.932121
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=19.346317
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=751.536145
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=7.556659
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000057
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=743.896973
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=3.185307
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=294.190068
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=445.838622
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.029491
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.011475
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000020
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000054
+ProcessResult.StdOut:   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000008
+ProcessResult.StdOut:   LogCookCommandlet: Display:
+ProcessResult.StdOut:   LogCookCommandlet: Display: DDC Summary Stats
+ProcessResult.StdOut:   LogCookCommandlet: Display: =================
+ProcessResult.StdOut:   LogCookCommandlet: Display: TotalGetHits    =       331
+ProcessResult.StdOut:   LogCookCommandlet: Display: TotalGets       =       367
+ProcessResult.StdOut:   LogCookCommandlet: Display: TotalGetHitPct  =  0.901907
+ProcessResult.StdOut:   LogCookCommandlet: Display: LocalGetHitPct  =  0.610354
+ProcessResult.StdOut:   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+ProcessResult.StdOut:   LogCookCommandlet: Display: OtherGetHitPct  =  0.291553
+ProcessResult.StdOut:   LogCookCommandlet: Display: GetMissPct      =  0.098093
+ProcessResult.StdOut:   LogCookCommandlet: Display: TotalPutHits    =        36
+ProcessResult.StdOut:   LogCookCommandlet: Display: TotalPuts       =        36
+ProcessResult.StdOut:   LogCookCommandlet: Display: TotalPutHitPct  =  1.000000
+ProcessResult.StdOut:   LogCookCommandlet: Display: PutMissPct      =  0.000000
+ProcessResult.StdOut:   LogCookCommandlet: Display:
+ProcessResult.StdOut:   LogCookCommandlet: Display: DDC Resource Stats
+ProcessResult.StdOut:   LogCookCommandlet: Display: =======================================================================================================
+ProcessResult.StdOut:   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+ProcessResult.StdOut:   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+ProcessResult.StdOut:   LogCookCommandlet: Display: MaterialShader                                  2.82                   2.82            36          4.91
+ProcessResult.StdOut:   LogCookCommandlet: Display: GlobalShader                                    2.13                   2.13             0          0.99
+ProcessResult.StdOut:   LogCookCommandlet: Display: Texture (Streaming)                             1.57                   0.00             0          2.77
+ProcessResult.StdOut:   LogCookCommandlet: Display: PhysX (BodySetup)                               1.31                   1.31             0          0.81
+ProcessResult.StdOut:   LogCookCommandlet: Display: StaticMesh                                      0.09                   0.09             0          0.74
+ProcessResult.StdOut:   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          3.41
+ProcessResult.StdOut:   LogCookCommandlet: Display: NavCollision                                    0.00                   0.00             0          0.02
+ProcessResult.StdOut:   LogCookCommandlet: Display: Texture (Inline)                                0.00                   0.00             0         38.15
+ProcessResult.StdOut:   LogInit: Display:
+ProcessResult.StdOut:   LogInit: Display: Warning/Error Summary (Unique only)
+ProcessResult.StdOut:   LogInit: Display: -----------------------------------
+ProcessResult.StdOut:   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+ProcessResult.StdOut:   LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+ProcessResult.StdOut:   LogInit: Display:
+ProcessResult.StdOut:   LogInit: Display: Success - 0 error(s), 3 warning(s)
+ProcessResult.StdOut:   LogInit: Display:
+ProcessResult.StdOut:   
+ProcessResult.StdOut:   Execution of commandlet took:  751.73 seconds
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGChosenFile::~UAGChosenFile()
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGChosenFile::~UAGChosenFile()
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGNotification::~UAGNotification()
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGNotificationBigTextStyle::~UAGNotificationBigTextStyle()
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGNotificationBigTextStyle::~UAGNotificationBigTextStyle()
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGNotificationBuilder::~UAGNotificationBuilder()
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGNotification::~UAGNotification()
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGNotification::~UAGNotification()
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGNotificationInboxStyle::~UAGNotificationInboxStyle()
+ProcessResult.StdOut:   LogTemp: Warning: ANDROIDGOODIES => UAGNotificationBigTextStyle::~UAGNotificationBigTextStyle()
+ProcessResult.StdOut:   LogShaderCompilers: Display: Shaders left to compile 0
+ProcessResult.StdOut:   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+CommandUtils.Run: Took 785,7212065s to run UE4Editor-Cmd.exe, ExitCode=0
+InternalUtils.SafeDeleteFile: SafeDeleteFile C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\Cook-2020.12.01-22.16.44.txt
+InternalUtils.SafeCopyFile: SafeCopyFile E:\USER\vova40227\EpicStore\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.12.01-22.03.38.txt C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\Cook-2020.12.01-22.16.44.txt
+InternalUtils.SafeDeleteFile: SafeDeleteFile E:\USER\vova40227\EpicStore\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.12.01-22.03.38.txt
+Project.Cook: ********** COOK COMMAND COMPLETED **********
+InternalUtils.SafeFileExists: SafeFileExists E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject=True
+Project.CopyBuildToStagingDirectory: ********** STAGE COMMAND STARTED **********
+Project.LogDeploymentContext: Deployment Context **************
+Project.LogDeploymentContext: ProjectFile = E:\Sustem\Documenti\Unreal Projects\GGGame\GGGame.uproject
+Project.LogDeploymentContext: ArchiveDir = E:\Sustem\Documenti\Unreal Projects\GGGame\Android_ETC2
+Project.LogDeploymentContext: IsCodeBasedUprojectFile = True
+Project.LogDeploymentContext: DedicatedServer = False
+Project.LogDeploymentContext: Stage = True
+Project.LogDeploymentContext: StageTargetPlatform = Android
+Project.LogDeploymentContext: InputRootDir = E:\USER\vova40227\EpicStore\UE_4.25
+Project.LogDeploymentContext: InputProjectDir = E:\Sustem\Documenti\Unreal Projects\GGGame
+Project.LogDeploymentContext: PlatformDir = Android
+Project.LogDeploymentContext: StagedOutputDir = E:\Sustem\Documenti\Unreal Projects\GGGame\Saved\StagedBuilds\Android_ETC2
+Project.LogDeploymentContext: ShortProjectName = GGGame
+Project.LogDeploymentContext: ProjectArgForCommandLines = ../../../GGGame/GGGame.uproject
+Project.LogDeploymentContext: RunRootDir = E:\Sustem\Documenti\Unreal Projects\GGGame\Saved\StagedBuilds\Android_ETC2
+Project.LogDeploymentContext: RunProjectDir = E:\Sustem\Documenti\Unreal Projects\GGGame\Saved\StagedBuilds\Android_ETC2\GGGame
+Project.LogDeploymentContext: PakFileInternalRoot = ../../../
+Project.LogDeploymentContext: PlatformUsesChunkManifests = False
+Project.LogDeploymentContext: End Deployment Context **************
+Project.WriteStageCommandline: Creating UE4CommandLine.txt
+Project.CreateStagingManifest: Creating Staging Manifest...
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\BaseEditor.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\BaseEditorKeyBindings.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\BaseEditorPerProjectUserSettings.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\BaseEditorSettings.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\BaseLightmass.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\BasePakFileRules.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\ConsoleVariables.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\Category.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\Category_Gather.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\Editor.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\EditorTutorials.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\EditorTutorials_Gather.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\Editor_Gather.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\Engine.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\Engine_Gather.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\Keywords.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\Keywords_Gather.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\PortableObjectExport.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\PortableObjectImport.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\PropertyNames.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\PropertyNames_Gather.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\RepairData.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\ToolTips.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\ToolTips_Gather.ini
+Project.StageConfigFiles: Excluding config file E:\USER\vova40227\EpicStore\UE_4.25\Engine\Config\Localization\WordCount.ini
+Project.StageConfigFiles: Excluding config file E:\Sustem\Documenti\Unreal Projects\GGGame\Config\DefaultEditor.ini
+Log.WriteException: ==============================================================================
+Log.WriteException: ERROR: System.MissingMethodException: Метод не найден: "Void Tools.DotNETCommon.JsonWriter..ctor(System.String)".
+Log.WriteException:           в Project.CreatePluginManifest(DeploymentContext SC, Dictionary`2 FileMapping, StagedFileType FileType, String ManifestName)
+Log.WriteException:           в Project.CreateStagingManifest(ProjectParams Params, DeploymentContext SC)
+Log.WriteException:           в Project.CopyBuildToStagingDirectory(ProjectParams Params)
+Log.WriteException:           в BuildCookRun.DoBuildCookRun(ProjectParams Params)
+Log.WriteException:           в BuildCookRun.ExecuteBuild()
+Log.WriteException:           в AutomationTool.BuildCommand.Execute()
+Log.WriteException:           в AutomationTool.Automation.Execute(List`1 CommandsToExecute, Dictionary`2 Commands)
+Log.WriteException:           в AutomationTool.Automation.Process(String[] Arguments, StartupTraceListener StartupListener)
+Log.WriteException:           в AutomationTool.Program.MainProc(String[] Arguments, StartupTraceListener StartupListener)
+Log.WriteException:           в AutomationTool.Program.<>c__DisplayClass1_0.<Main>b__2()
+Log.WriteException:           в AutomationTool.InternalUtils.RunSingleInstance(Func`1 Main)
+Log.WriteException:           в AutomationTool.Program.Main(String[] Arguments)
+Log.WriteException:        (see C:\Users\ACER\AppData\Roaming\Unreal Engine\AutomationTool\Logs\E+USER+vova40227+EpicStore+UE_4.25\Log.txt for full exception trace)
+Log.WriteException: 
+Log.WriteException: MissingMethodException: Метод не найден: "Void Tools.DotNETCommon.JsonWriter..ctor(System.String)".
+Log.WriteException:    в Project.CreatePluginManifest(DeploymentContext SC, Dictionary`2 FileMapping, StagedFileType FileType, String ManifestName)
+Log.WriteException:    в Project.CreateStagingManifest(ProjectParams Params, DeploymentContext SC)
+Log.WriteException:    в Project.CopyBuildToStagingDirectory(ProjectParams Params)
+Log.WriteException:    в BuildCookRun.DoBuildCookRun(ProjectParams Params)
+Log.WriteException:    в BuildCookRun.ExecuteBuild()
+Log.WriteException:    в AutomationTool.BuildCommand.Execute()
+Log.WriteException:    в AutomationTool.Automation.Execute(List`1 CommandsToExecute, Dictionary`2 Commands)
+Log.WriteException:    в AutomationTool.Automation.Process(String[] Arguments, StartupTraceListener StartupListener)
+Log.WriteException:    в AutomationTool.Program.MainProc(String[] Arguments, StartupTraceListener StartupListener)
+Log.WriteException:    в AutomationTool.Program.<>c__DisplayClass1_0.<Main>b__2()
+Log.WriteException:    в AutomationTool.InternalUtils.RunSingleInstance(Func`1 Main)
+Log.WriteException:    в AutomationTool.Program.Main(String[] Arguments)
+Log.WriteException: ==============================================================================
+Program.Main: AutomationTool exiting with ExitCode=1 (Error_Unknown)
